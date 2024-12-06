@@ -70,7 +70,6 @@ body header .cita button{
 
 
 
-
 footer {
     background: #4c4c4c;
     color: white;
@@ -79,26 +78,56 @@ footer {
    flex-direction: column;
 }
 
-footer .tittle, footer .derechos {
+footer .tittle {
     background: #4c4c4c;
     color: white;
     padding: 2rem 1rem;
     display: flex;
     flex-direction: column;
-    flex-wrap: w    rap;
+    flex-wrap: wrap;
     text-align: center;
 }
 
-footer a {
+footer .tittle .redesSociales img {
+    width: 50px;
+    height: auto;
+    padding: 10px 0 10px 0;
+}
+
+footer .tittle .ofertas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15%;
+    border-bottom: 1px solid #333;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ofertas input {
+    padding: 10px;
+    border: solid  white;
+    border-radius: 5px;
+    background-color: #007bff4d;
+    color: #f4f4f4;
+    width: 99%;
+    margin-bottom: 10px;
+}
+
+.ofertas button{
+    background-color: #007bff;
     color: white;
-    text-decoration: none;
-    margin: 0 0.5rem;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 99%;
 }
 
-footer a:hover {
-    color: #ffa500;
-}
-
-footer p {
-    margin: 0.5rem 0;
+footer .derechos{
+    display: flex;
+    justify-content: space-around;
 }
