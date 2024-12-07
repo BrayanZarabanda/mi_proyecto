@@ -21,10 +21,7 @@ header {
     font-family: Arial, sans-serif;
 }
 
-
-
 header .nav  ul {
-
     padding: 1.5rem;
     background: #f9f9f9;
     border-radius: 10px;
@@ -71,46 +68,133 @@ button:hover {
     background-color: #0056b3;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #f4f4f4;
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 2000px;
+    text-align: center;
+    margin-top: 11rem;
+    padding: 10px 0;
+   
 }
 
-h2 {
+.news-section {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #0078d4, #61aef3);
+    color: #fff;
+    margin: 0 120px;
     text-align: center;
+    
+  }
+
+  .search-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  .news-article {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header h1, .header p{
+    color: #f0f2f3;
+  }
+  .news-article .image-container {
+    flex: 1;
+    background-color: #f4f4f4;
+  }
+  
+  .news-article .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .news-article .content {
+    flex: 2;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .news-article .content h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .news-article .content p {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .news-article .content .read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #0078d4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .news-article .content .read-more:hover {
+    background: #005bb5;
+  }
+  
+
+h1, h2 {
     color: #333;
+    font-size: 50px;
+    margin: 10px;
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: #ffffff;
+    text-align: center;
+    background: radial-gradient(circle, #007bff67, #fffdfd);
+    align-items: center;
 }
 
 .card {
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 1rex;
+    width: 500px;
+    height: 450px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
 }
 .card:hover {
     transform: scale(1.05); 
 }
 
-figure {
-    margin: 0;
-}
-
 img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-figcaption {
-    padding: 16px;
+    width: 100%; 
+    height: 300px; 
+    border-radius: 10px;
 }
 
 h3 {
@@ -178,9 +262,9 @@ footer .tittle .ofertas{
     margin-bottom: 10px;
 }
 
-.ofertas button{
-    background-color: #007bff;
-    color: white;
+.search-bar button{
+    background-color: #03478f;
+    color: rgb(245, 239, 239);
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -188,6 +272,7 @@ footer .tittle .ofertas{
     cursor: pointer;
     transition: background 0.3s ease;
     width: 99%;
+    margin: 10px;
 }
 
 footer .derechos{
