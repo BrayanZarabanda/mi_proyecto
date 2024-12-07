@@ -9,13 +9,19 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(255, 255, 255, 0.8);
+    height: 160px;
+    background: rgba(88, 88, 90, 0.308);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
+
+
 
 header .nav  ul {
 
@@ -28,7 +34,7 @@ header .nav  ul {
 }
 
 .logo img {
-    max-width: 120px;
+    max-width: 170px;
     height: auto;
 }
 
@@ -49,7 +55,7 @@ header .nav  ul {
     color: #121313;
 }
 
-body header .cita button{
+button{
     background-color: #007bff;
     color: white;
     border: none;
@@ -61,6 +67,9 @@ body header .cita button{
     width: 99%;
 }
 
+button:hover {
+    background-color: #0056b3;
+}
 
 
 
