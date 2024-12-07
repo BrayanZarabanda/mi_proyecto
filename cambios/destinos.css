@@ -78,8 +78,7 @@ main{
     max-width: 2000px;
     text-align: center;
     margin-top: 11rem;
-    padding: 10px 0;
-   
+    padding: 10px 0;  
 }
 
 h1, h2 {
@@ -87,7 +86,6 @@ h1, h2 {
     font-size: 50px;
     margin: 10px;
 }
-
 
 .destinos {
     display: flex;
@@ -171,12 +169,6 @@ h1, h2 {
     border: 1px solid  #ddd;
     border-radius: 5px;
 }
-
-/* .container { */
-    /* margin-top: 20px;   */
-    /* margin-left: 30px;  */
-/* } */
-
 
 h2 {
     text-align: center;

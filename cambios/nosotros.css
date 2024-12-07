@@ -21,8 +21,6 @@ header {
     font-family: Arial, sans-serif;
 }
 
-
-
 header .nav  ul {
 
     padding: 1.5rem;
@@ -70,9 +68,6 @@ button{
 button:hover {
     background-color: #0056b3;
 }
-
-
-
 
 
 

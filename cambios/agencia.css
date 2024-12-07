@@ -275,8 +275,6 @@ strong {
     margin: 0;
 }
 
-
-
 .nosotros {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -293,7 +291,6 @@ strong {
     margin-bottom: 1rem;
     line-height: 1.6;
 }
-
 
 .nosotros .logos {
     display: flex;
@@ -315,7 +312,6 @@ strong {
     box-shadow: 0 4px 10px rgba(5, 5, 5, 0.5);
     background-color: #f4f4f4;
 }
-
 
 footer {
     background: #4c4c4c;
@@ -361,8 +357,6 @@ footer .tittle .ofertas{
     width: 99%;
     margin-bottom: 10px;
 }
-
-
 
 footer .derechos {
     display: flex;
