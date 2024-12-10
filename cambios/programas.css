@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-
 header {
     position: fixed;
     top: 0;
@@ -16,7 +15,6 @@ header {
     align-items: center;
 
 }
-
 header .nav  ul {
 
     padding: 1.5rem;
@@ -26,29 +24,22 @@ header .nav  ul {
     width: 99%;
     text-align: center;
 }
-
 .logo img {
     max-width: 120px;
     height: auto;
 }
-
 .nav ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
-
 }
-
 .nav ul li a {
     text-decoration: none;
     color: #007bff;
-
 }
-
 .nav ul li a:hover {
     color: #121313;
 }
-
 body header .cita button{
     background-color: #007bff;
     color: white;
@@ -60,19 +51,168 @@ body header .cita button{
     transition: background 0.3s ease;
     width: 99%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+main{
+    padding: 20px;    
+    margin-top: 50px;
+}
+.Programas{
+    width: auto;
+    background: linear-gradient(rgba(20, 42, 107, 0.55), rgba(43, 176, 243, 0.392)), url(https://res.cloudinary.com/dvgefomdc/image/upload/v1733669501/Ebook-1_mycxav.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:initial;
+    border-radius: 40px 40px 40px 40px;
+    color: white;  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+    align-content: center;
+    height: 420px;
+    padding: 7%;
+    margin: 2rem;
+}
+h1{
+    font-size: x-large;
+    font-weight: bold;
+}
+p, h2{
+    font-size: medium;
+}
+h4{
+    font-size: large;
+}
+h1, h4, p{
+    padding: 7px;
+    margin: 2px;
+}
+strong{
+    font-weight: bold;
+}
+.B_CProgramas{
+    background-color: #003153;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    margin: 5px;
+}
+.B_CIngles{
+    background-color: rgb(43, 176, 243);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    margin: 5px;
+}
+.C_Programas{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Cursos_Idiomas, .Hig_School, .Campamento, .Pair{
+    background-color:#003153;
+    border-radius: 40px 40px 40px 40px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem;
+    color: white;
+}
+.Ed_Superior, .Pasantia, .Voluntarios{
+    background-color:rgb(43, 176, 243);
+    border-radius: 40px 40px 40px 40px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem;
+    color: white;
+}
+.IMG_Cursos img, .IMG_Ed_Superior img, .IMG_Hig_School img, .IMG_Pasantias img, .IMG_Campamento img, .IMG_Voluntarios img, .IMG_Pair img{
+    border-radius: 40px 40px 40px 40px;
+    width: 300px;
+    height: auto;
+}
+.Noticias {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    text-align: center;
+}
+.Cont_Noticias{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.Int_Noticias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #007bff
+}
+.Int_Noticias img {
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+.Formulario {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 2rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.Formulario .h1{
+    color: #007bff;
+}
+.Formulario input, .Formulario textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.Formulario select, .Formulario option {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid  #ddd;
+    border-radius: 5px;
+}
+.Formulario button {
+    background-color: rgb(43, 176, 243);
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Formulario button:hover {
+    background-color: #003153;
+}
 footer {
     background: #4c4c4c;
     color: white;
@@ -80,7 +220,6 @@ footer {
    display: flex;
    flex-direction: column;
 }
-
 footer .tittle {
     background: #4c4c4c;
     color: white;
@@ -90,13 +229,11 @@ footer .tittle {
     flex-wrap: wrap;
     text-align: center;
 }
-
 footer .tittle .redesSociales img {
     width: 50px;
     height: auto;
     padding: 10px 0 10px 0;
 }
-
 footer .tittle .ofertas{
     display: flex;
     justify-content: space-between;
@@ -107,7 +244,6 @@ footer .tittle .ofertas{
     flex-direction: column;
     gap: 10px;
 }
-
 .ofertas input {
     padding: 10px;
     border: solid  white;
@@ -117,7 +253,6 @@ footer .tittle .ofertas{
     width: 99%;
     margin-bottom: 10px;
 }
-
 .ofertas button{
     background-color: #007bff;
     color: white;
@@ -129,7 +264,6 @@ footer .tittle .ofertas{
     transition: background 0.3s ease;
     width: 99%;
 }
-
 footer .derechos{
     display: flex;
     justify-content: space-around;
